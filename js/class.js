@@ -22,7 +22,7 @@ fetch('https://6554ca3763cafc694fe6f798.mockapi.io/data', {
     productItem.innerHTML=
     ` <div class="class-wrap">
     <div class="class-img">
-        <img src="${product.image}" alt="Image">
+        <img src="${product.image}" alt="Image" class="img">
     </div>
     <div class="class-text">
         <div class="class-teacher">
